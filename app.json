@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "nativeApp",
-    "slug": "nativeApp",
+    "slug": "nativeapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "83a2a956-a3c1-449e-bc12-1e3ed7d0fc16"
+      }
+    },
+    "owner": "baekseungho"
   }
 }
